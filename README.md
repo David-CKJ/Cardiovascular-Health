@@ -31,6 +31,7 @@ EDA
 - Relationship between health variables and BP are not linear, either plateauing (cholesterol) or (BMI).
 
 ML
+
 Upsampled vs Downsampled:
 - The upsampled model consistently shows better goodness-of-fit and classification accuracy than downsampled one for training and test sets.
 - Across the BP classes, Class 1 (Elevated BP) has the largest improvement from the downsampled model to upsampled one.
