@@ -14,8 +14,6 @@ This is a SC1015 Mini-Project on Cardiovascular Health. In this project, we will
 
 ## Problem Definition
 - Are we able to predict BP based on various lifestyle variables (active, alcohol, cardio, and smoke) ?
-- Will upsampling or downsampling the dataset improve the accuracy of prediction?
-- Which model would be best to predict BP?
 
 ## Models Used
 - Decision Tree
