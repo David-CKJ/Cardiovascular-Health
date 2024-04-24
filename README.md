@@ -44,6 +44,11 @@ Decision Tree vs Random Forest:
 
 Thus, the upsampled data using the Random Forest model after hyperparameter tuning is the better overall predictor. This is primarily due to better accuracy and more balanced performance across the classes, particularly in handling the minority classes without overly sacrificing performance in other areas.
 
+Class-specific:
+- The ML model is most capable at predicting Class 0 (Normal Heart Rate) and 3 (Hypertension Stage 2) as these two classes have high TPRs and low-moderate FPRs.
+- Class 1 (Elevated Heart Rate) can still be [redicted using the model but it will not be as accurate as class 0 and 3 as its TPR is lower.
+- Class 2 (Hypertension Stage 1) cannot be predicted using this model as its TPR is too low.
+
 ## Lesson Learnt
 Analysing data collection to detect any potential issues; the dataset only looks at cholesterol when there is good cholesterol, measured with the amount of high-density lipoprotein (HDL) and bad cholesterol, measured with the amount of low-density lipoprotein (LDL).
 
