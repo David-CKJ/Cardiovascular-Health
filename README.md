@@ -32,7 +32,7 @@ ML
 
 Upsampled vs Downsampled:
 - The upsampled model consistently shows better goodness-of-fit and classification accuracy than downsampled one for training and test sets.
-- Across the BP classes, Class 1 (Elevated BP) has the largest improvement from the downsampled model to upsampled one.
+- Across the BP classes, Class 1 (Elevated BP) from the upsampled model has the largest improvement over the downsampled one.
 - For FPR, upsampled and downsampled datasets have similar results which means that upsampled would still be the better for predicting BP.
 
 Decision Tree vs Random Forest:
