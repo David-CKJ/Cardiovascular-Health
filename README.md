@@ -38,7 +38,7 @@ Upsampled vs Downsampled:
 
 Decision Tree vs Random Forest:
 - Random Forest has better goodness-of-fit and classification accuracy than Decision Tree.
-- Random forest is a better as it generates multiples decision trees and this will result in a better goodness-of-fit.
+- Random forest is a better model as it generates multiples decision trees and this will result in a better goodness-of-fit.
 - To further increase prediction accuracy, we implemented hypertuning, which can improve goodness-of-fit of the random forest model.
 - Hypertuning focused on optimizing the performance of the random forest by finding the most optimal parameters.
 
