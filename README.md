@@ -46,7 +46,9 @@ Thus, the upsampled data using the Random Forest model after hyperparameter tuni
 ## Lesson Learnt
 Analysing data collection to detect any potential issues; the dataset only looks at cholesterol when there is good cholesterol, measured with the amount of high-density lipoprotein (HDL) and bad cholesterol, measured with the amount of low-density lipoprotein (LDL).
 
-Handling imbalanced datasets by upsampling and downsampling the dataset and taking into cosideration their implications on the datset and prediction model accuracy.
+Handling imbalanced datasets by upsampling and downsampling the dataset and taking into consideration their implications on the datset and prediction model accuracy.
+
+Employing GridSearch with increased cross-validation folds can refine model parameters. Exploring XGBoost or deep learning may also enhance results, and nested cross-validation could offer a more reliable performance assessment.
 
 ## References
 - https://www.kaggle.com/datasets/colewelkins/cardiovascular-disease
