@@ -18,6 +18,7 @@ This is a SC1015 Mini-Project on Cardiovascular Health. In this project, we will
 ## Models Used
 - Decision Tree
 - Random Forest
+- Hypertuning using GridSearchCV
 
 ## Conclusion
 EDA
